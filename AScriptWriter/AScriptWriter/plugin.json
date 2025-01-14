@@ -1,0 +1,8 @@
+{
+    "name": "AeroScript Writer",
+    "author": "Michael C Song",
+    "version": "1.0.0",
+    "description": "Writes g-code to an AeroScript file.",
+    "api": 8,
+    "i18n-catalog": "cura"
+}

@@ -1,0 +1,14 @@
+var $integerOutputs[1] as integer
+var $realOutputs[1] as real
+var $stringOutputs[1] as string
+
+program // start of program
+VelocityBlendingOn()
+
+G90 ;absolute
+
+G92 X0.000000 Y0.000000 Z0.000000 ;set home
+
+G76; set to mm
+
+Callback(1, [0, 31], [], ["openPort"], $integerOutputs, $realOutputs, $stringOutputs)
